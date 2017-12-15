@@ -1,7 +1,7 @@
 <template>
     <footer class="page-footer">
         <div class="container">
-            这是页脚
+            <div class="copyright">云设科技 版权所有</div>
         </div>
     </footer>
 </template>
