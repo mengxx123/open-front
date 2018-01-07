@@ -7,7 +7,11 @@ import http from '@/util/http'
 import qs from 'qs'
 import storage from '@/util/storage'
 import './scss/main.scss'
+
+import YunserUI from 'yunser-ui-vue'
 import ui from './components/index'
+import 'yunser-ui-vue/dist/yunser-ui.css'
+import 'yunser-ui-vue/dist/theme-light.css'
 
 Vue.config.productionTip = false
 
@@ -15,6 +19,7 @@ Vue.prototype.$http = http
 Vue.prototype.$qs = qs
 Vue.prototype.$storage = storage
 
+Vue.use(YunserUI)
 Vue.use(ui)
 
 /* eslint-disable no-new */
