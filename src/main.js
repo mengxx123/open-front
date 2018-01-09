@@ -8,8 +8,8 @@ import qs from 'qs'
 import storage from '@/util/storage'
 import './scss/main.scss'
 
-import YunserUI from 'yunser-ui-vue'
 import ui from './components/index'
+import YunserUI from 'yunser-ui-vue'
 import 'yunser-ui-vue/dist/yunser-ui.css'
 import 'yunser-ui-vue/dist/theme-light.css'
 

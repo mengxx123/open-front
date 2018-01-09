@@ -6,6 +6,7 @@
                 <ui-flat-button label="首页" slot="right" to="/" />
                 <ui-flat-button label="文档" slot="right" to="/doc" />
                 <ui-flat-button label="支持" slot="right" to="/support" />
+                <ui-flat-button label="API" slot="right" href="http://doc.api.yunser.com/" target="_blank" />
                 <ui-flat-button label="我的应用" slot="right" to="/me/apps" v-if="user" />
                 <ui-flat-button label="登录" slot="right" @click="loginOss" v-if="!user" style="margin-right: 16px" />
                 <ui-raised-button label="注册" @click="register" v-if="!user" slot="right"/>
